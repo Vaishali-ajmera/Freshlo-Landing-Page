@@ -1,0 +1,48 @@
+.more-info-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 5%;
+}
+
+.more-info.left>img {
+    border-radius: 10px;
+
+}
+
+.more-info-heading {
+    color: black;
+    margin: 30px 0;
+    font-size: 2rem;
+
+}
+
+.more-info-desc {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+.more-info-desc li {
+    margin-bottom: 10px;
+}
+
+.more-info-button {
+
+    background-color: #328c38;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.more-info-button:hover {
+
+    background-color:  #1f6224;
+    
+}
+
